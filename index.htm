@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Heating Contractor Rancho Cucamonga | RC Air Heating & Air Conditioning Service</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: #fef3c7;
+            color: #78350f;
+            line-height: 1.6;
+        }
+
+        .top-nav {
+            background: #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            padding: 1.5rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 3%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .brand-logo {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #d97706;
+        }
+
+        .nav-phone {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: #fff;
+            padding: 0.8rem 2rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: transform 0.3s;
+        }
+
+        .nav-phone:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(245, 158, 11, 0.4);
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            padding: 6rem 3% 8rem;
+            text-align: center;
+            color: #fff;
+        }
+
+        .hero-badge {
+            background: rgba(255,255,255,0.2);
+            display: inline-block;
+            padding: 0.5rem 1.5rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .hero-subtitle {
+            font-size: 1.3rem;
+            max-width: 700px;
+            margin: 0 auto 3rem;
+            opacity: 0.95;
+        }
+
+        .hero-cta {
+            background: #fff;
+            color: #d97706;
+            padding: 1.2rem 3rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            display: inline-block;
+            transition: all 0.3s;
+        }
+
+        .hero-cta:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 5rem 3%;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-tag {
+            color: #d97706;
+            font-weight: 700;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 1rem;
+        }
+
+        .section-title {
+            font-size: 2.8rem;
+            font-weight: 800;
+            color: #78350f;
+            margin-bottom: 1rem;
+        }
+
+        .section-description {
+            font-size: 1.2rem;
+            color: #92400e;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .intro-text {
+            background: #fff;
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+            margin-bottom: 4rem;
+            font-size: 1.15rem;
+            line-height: 1.9;
+            color: #92400e;
+        }
+
+        .intro-text a {
+            color: #d97706;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 2px solid #d97706;
+            transition: color 0.3s;
+        }
+
+        .intro-text a:hover {
+            color: #f59e0b;
+            border-bottom-color: #f59e0b;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .service-card {
+            background: #fff;
+            border-radius: 15px;
+            padding: 2.5rem;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+            transition: all 0.3s;
+            border-top: 4px solid #fde68a;
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(245, 158, 11, 0.15);
+            border-top-color: #f59e0b;
+        }
+
+        .card-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #78350f;
+            margin-bottom: 1rem;
+        }
+
+        .card-description {
+            color: #92400e;
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        .stats-section {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            padding: 5rem 3%;
+            margin: 5rem 0;
+        }
+
+        .stats-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 3rem;
+            text-align: center;
+        }
+
+        .stat-item {
+            color: #fff;
+        }
+
+        .stat-number {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .testimonial-section {
+            background: #fff;
+            padding: 5rem 3%;
+        }
+
+        .testimonial-grid {
+            max-width: 1200px;
+            margin: 3rem auto 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .testimonial-card {
+            background: #fef3c7;
+            padding: 2.5rem;
+            border-radius: 15px;
+            border-left: 4px solid #f59e0b;
+        }
+
+        .testimonial-text {
+            font-size: 1.1rem;
+            color: #92400e;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            font-weight: 700;
+            color: #78350f;
+        }
+
+        .testimonial-location {
+            color: #92400e;
+            font-size: 0.95rem;
+        }
+
+        .gallery-section {
+            padding: 5rem 3%;
+            background: #fef3c7;
+        }
+
+        .gallery-grid {
+            max-width: 1200px;
+            margin: 3rem auto 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .gallery-item {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            gap: 2.5rem;
+            margin: 4rem 0;
+        }
+
+        .info-card {
+            background: #fff;
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+        }
+
+        .info-card h3 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #78350f;
+            margin-bottom: 1.5rem;
+        }
+
+        .info-card p {
+            color: #92400e;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .info-card a {
+            color: #d97706;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 2px solid #d97706;
+            transition: color 0.3s;
+        }
+
+        .info-card a:hover {
+            color: #f59e0b;
+            border-bottom-color: #f59e0b;
+        }
+
+        .map-section {
+            background: #fff;
+            padding: 5rem 3%;
+        }
+
+        .map-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .map-embed {
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            margin-top: 3rem;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            padding: 6rem 3%;
+            text-align: center;
+            color: #fff;
+        }
+
+        .cta-title {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 3rem;
+            opacity: 0.95;
+        }
+
+        .contact-grid {
+            max-width: 900px;
+            margin: 3rem auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+        }
+
+        .contact-item {
+            text-align: center;
+        }
+
+        .contact-label {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.8rem;
+            opacity: 0.8;
+        }
+
+        .contact-value {
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        .contact-value a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer {
+            background: #78350f;
+            padding: 3rem 3%;
+            text-align: center;
+            color: #fff;
+        }
+
+        .footer p {
+            margin-bottom: 0.8rem;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2.2rem;
+            }
+            
+            .info-grid,
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .nav-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="nav-container">
+            <div class="brand-logo">RC Air Heating & Air Conditioning Service</div>
+            <a href="tel:+19095662471" class="nav-phone">📞 (909) 566-2471</a>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="hero-badge">PREMIER HEATING CONTRACTOR IN RANCHO CUCAMONGA</div>
+        <h1 class="hero-title">Exceptional Heating Solutions<br>Built on Trust & Quality</h1>
+        <p class="hero-subtitle">RC Air Heating & Air Conditioning Service delivers unparalleled heating expertise to Rancho Cucamonga homes and businesses, combining precision craftsmanship with personalized customer care.</p>
+        <a href="tel:+19095662471" class="hero-cta">Contact Us Today</a>
+    </section>
+
+    <div class="container">
+        <div class="intro-text">
+            At RC Air Heating & Air Conditioning Service, we understand that your heating system is more than just equipment—it's the foundation of your family's comfort during California's cooler months. As Rancho Cucamonga's most trusted heating contractor, we've built our reputation on delivering exceptional service that combines technical excellence with genuine care for our customers. Every installation, repair, and maintenance visit reflects our commitment to quality workmanship and lasting relationships with the families and businesses we serve throughout the Inland Empire. For comprehensive information about our services, explore our <a href="https://topratedservice.github.io/heating-contractor-rancho-cucamonga/" target="_blank" rel="noopener">heating contractor solutions</a> and learn why homeowners choose us year after year.
+        </div>
+
+        <div class="section-header">
+            <div class="section-tag">COMPREHENSIVE SERVICES</div>
+            <h2 class="section-title">Professional Heating Services</h2>
+            <p class="section-description">RC Air Heating & Air Conditioning Service provides complete heating solutions tailored to your unique needs</p>
+        </div>
+
+        <div class="card-grid">
+            <div class="service-card">
+                <div class="card-icon">🏡</div>
+                <h3 class="card-title">Custom Heating Installation</h3>
+                <p class="card-description">Every home has unique heating requirements. RC Air Heating & Air Conditioning Service designs custom solutions matching your property's size, layout, insulation, and usage patterns for optimal comfort and efficiency.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="card-icon">🔥</div>
+                <h3 class="card-title">Expert System Repair</h3>
+                <p class="card-description">When heating problems arise, our certified technicians respond quickly with the skills and parts needed to restore your comfort. We repair all major brands with precision and care.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="card-icon">🛠️</div>
+                <h3 class="card-title">Annual Maintenance Plans</h3>
+                <p class="card-description">Protect your heating investment with RC Air Heating & Air Conditioning Service's comprehensive maintenance programs. Regular service prevents breakdowns, maximizes efficiency, and extends equipment life significantly.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="card-icon">💡</div>
+                <h3 class="card-title">Energy Efficiency Upgrades</h3>
+                <p class="card-description">Transform your home's heating performance with modern high-efficiency equipment and smart controls. Our upgrades typically reduce heating costs by 25-45% while improving comfort throughout your home.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="card-icon">🌬️</div>
+                <h3 class="card-title">Air Quality Solutions</h3>
+                <p class="card-description">RC Air Heating & Air Conditioning Service integrates advanced filtration, humidification, and purification systems with your heating equipment, creating healthier indoor environments for your family.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="card-icon">🆘</div>
+                <h3 class="card-title">24/7 Emergency Service</h3>
+                <p class="card-description">Heating emergencies don't follow business hours. Our emergency response team stands ready around the clock to restore warmth and safety to your Rancho Cucamonga home when you need us most.</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="stats-section">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-number">2,500+</div>
+                <div class="stat-label">Satisfied Customers<br>in Rancho Cucamonga</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">15+</div>
+                <div class="stat-label">Years of Trusted<br>Local Service</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">98%</div>
+                <div class="stat-label">Customer<br>Satisfaction Rate</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">1-Day</div>
+                <div class="stat-label">Average Response<br>Time</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section">
+        <div class="section-header">
+            <div class="section-tag">CUSTOMER TESTIMONIALS</div>
+            <h2 class="section-title">Hear From Our Customers</h2>
+            <p class="section-description">Discover why Rancho Cucamonga residents trust RC Air Heating & Air Conditioning Service for their heating needs</p>
+        </div>
+
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <p class="testimonial-text">"RC Air Heating & Air Conditioning Service installed our new furnace last winter and the improvement in our home's comfort has been remarkable. The team was professional, respectful, and incredibly thorough. They explained everything clearly and left our home cleaner than they found it."</p>
+                <div class="testimonial-author">Patricia R.</div>
+                <div class="testimonial-location">Rancho Cucamonga, CA</div>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-text">"After our heating system failed on a Friday night, RC Air Heating & Air Conditioning Service had a technician at our door within hours. He diagnosed the problem quickly, had the parts on his truck, and we were warm again before midnight. Outstanding emergency service!"</p>
+                <div class="testimonial-author">Michael T.</div>
+                <div class="testimonial-location">Rancho Cucamonga, CA</div>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-text">"We've used RC Air Heating & Air Conditioning Service for annual maintenance for three years now. Their technicians are always on time, thorough, and they take time to answer all our questions. It's refreshing to work with a company that genuinely cares about their customers."</p>
+                <div class="testimonial-author">Laura & James K.</div>
+                <div class="testimonial-location">Rancho Cucamonga, CA</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="section-header">
+            <div class="section-tag">OUR CRAFTSMANSHIP</div>
+            <h2 class="section-title">Quality Work Gallery</h2>
+            <p class="section-description">See examples of RC Air Heating & Air Conditioning Service's professional heating installations</p>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipNkMLMhmq8t6Hs2lKKLQsHa13FX3O1OcY_8jwnI=w400-h584-k-no" alt="Heating technician performing installation">
+            </div>
+            <div class="gallery-item">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipPBfswmWry2M9uDyTAiqAE45qFg03l6HVfQJcRx=w400-h533-k-no" alt="Professional furnace installation">
+            </div>
+            <div class="gallery-item">
+                <img src="https://lh3.googleusercontent.com/gpms-cs-s/APRy3c-xBkclizzM_WRwYWKIjgU8Spt0hVV86fZL9Lxt4LRniSO0ir4RAfQ1HFCqLOu4EPd5tfgIqkXIpqkvVSiA3CXicaDcOERSHasIpZrBCc8LyAgmr4PxMsIKS1_fNba_0PRXnNc=w400-h533-k-no" alt="High-efficiency heating equipment">
+            </div>
+            <div class="gallery-item">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipMsTE-JFpL8r8G1Dea5Lw9wuQWyPToJrdVED3gT=w400-h300-k-no" alt="RC Air Heating & Air Conditioning Service vehicle">
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="info-grid">
+            <div class="info-card">
+                <h3>Your Local Heating Experts</h3>
+                <p>RC Air Heating & Air Conditioning Service operates from our conveniently located facility at 8327 Orange St, Rancho Cucamonga, CA 91701. This strategic location enables us to provide rapid response throughout the entire Inland Empire while maintaining the personalized service that only a local company can deliver.</p>
+                <p>Being locally owned and operated means we understand Rancho Cucamonga's unique climate challenges and building characteristics. We're not a distant corporate franchise—we're your neighbors, and your satisfaction directly impacts our reputation in the community we call home. Discover more about our <a href="https://heating-contractor-rancho-cucamonga-ca-bc6a09.gitlab.io/" target="_blank" rel="noopener">professional heating contractor services in Rancho Cucamonga, CA</a>.</p>
+                <p>Our local presence also means accountability. When you call RC Air Heating & Air Conditioning Service, you reach people who genuinely care about solving your heating problems quickly and correctly. We build lasting relationships because we plan to serve Rancho Cucamonga families for generations to come.</p>
+            </div>
+
+            <div class="info-card">
+                <h3>Certified Professional Technicians</h3>
+                <p>Every technician at RC Air Heating & Air Conditioning Service maintains current industry certifications and undergoes continuous training on the latest heating technologies. Our team includes NATE-certified specialists, manufacturer-trained experts, and EPA-certified professionals who bring decades of combined experience to every service call.</p>
+                <p>Technical expertise matters, but so does character. We carefully select team members who share our commitment to integrity, professionalism, and customer respect. Our technicians arrive promptly, work efficiently, communicate clearly, and treat your home with the care it deserves. Learn more about our team and approach at our <a href="https://heating-contractor-in-rancho-cucamo.vercel.app/" target="_blank" rel="noopener">heating contractor in Rancho Cucamonga</a> resource center.</p>
+                <p>This combination of technical skill and professional conduct has earned RC Air Heating & Air Conditioning Service recognition as one of Rancho Cucamonga's most trusted heating contractors. Our reputation is our most valuable asset, and every team member works daily to protect and enhance it.</p>
+            </div>
+
+            <div class="info-card">
+                <h3>Transparent Pricing Philosophy</h3>
+                <p>RC Air Heating & Air Conditioning Service believes you deserve clear, honest pricing before any work begins. We provide detailed written estimates that explain exactly what services you're receiving and why each component matters for your heating system's performance and longevity.</p>
+                <p>Our pricing structure remains straightforward and competitive, with no hidden fees or surprise charges. What we quote is what you pay—period. We also offer flexible financing options making heating system upgrades and major repairs accessible for more Rancho Cucamonga families.</p>
+                <p>This pricing transparency reflects our broader commitment to ethical business practices. We recommend only services your heating system truly needs, prioritizing solutions that deliver the best long-term value for your specific situation and budget constraints.</p>
+            </div>
+
+            <div class="info-card">
+                <h3>Comprehensive Warranty Protection</h3>
+                <p>RC Air Heating & Air Conditioning Service stands behind every installation, repair, and service with comprehensive warranties that protect your investment. Our workmanship guarantees ensure your heating system will perform as promised, and we honor our commitments without hesitation or excuse.</p>
+                <p>Beyond our own warranties, we're factory-authorized for all major heating equipment manufacturers. This authorization means you receive full manufacturer warranty coverage on parts and equipment, often with extended terms available through our professional installation services. For detailed warranty information and emergency support, visit our <a href="https://heating-contractor-9108f.web.app/" target="_blank" rel="noopener">24/7 heating contractor service page</a>.</p>
+                <p>Should any warranty issue arise, RC Air Heating & Air Conditioning Service handles everything directly. You won't navigate complex warranty claims alone—we manage the process from start to finish, ensuring your heating system receives prompt attention and proper resolution.</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="map-section">
+        <div class="map-container">
+            <div class="section-header">
+                <div class="section-tag">VISIT US</div>
+                <h2 class="section-title">Conveniently Located in Rancho Cucamonga</h2>
+                <p class="section-description">RC Air Heating & Air Conditioning Service proudly serves Rancho Cucamonga and the surrounding Inland Empire communities</p>
+            </div>
+
+            <div class="map-embed">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.327647264894!2d-117.62462099999999!3d34.13795869999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c336df5c2ad82b%3A0x920b5fe14c54582d!2sRC%20Air%20Heating%20%26%20Air%20Conditioning%20Service!5e0!3m2!1sen!2sus!4v1763281981146!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <h2 class="cta-title">Experience the RC Air Heating & Air Conditioning Service Difference</h2>
+        <p class="cta-subtitle">Contact us today for professional heating services backed by quality workmanship and genuine customer care</p>
+
+        <div class="contact-grid">
+            <div class="contact-item">
+                <div class="contact-label">Call Now</div>
+                <div class="contact-value"><a href="tel:+19095662471">(909) 566-2471</a></div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-label">Visit Us</div>
+                <div class="contact-value">8327 Orange St<br>Rancho Cucamonga, CA 91701</div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-label">Availability</div>
+                <div class="contact-value">24/7 Emergency<br>Service Available</div>
+            </div>
+        </div>
+
+        <a href="tel:+19095662471" class="hero-cta" style="margin-top: 2rem;">Request Service</a>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 RC Air Heating & Air Conditioning Service</p>
+        <p>Licensed & Insured Heating Contractor Serving Rancho Cucamonga</p>
+        <p>Quality Workmanship • Honest Pricing • Exceptional Service</p>
+    </footer>
+</body>
+</html>
